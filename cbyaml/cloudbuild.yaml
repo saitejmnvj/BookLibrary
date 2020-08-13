@@ -1,0 +1,20 @@
+steps: 
+#Step1 Build the image
+ - name : "gcr.io/cloud-builders/docker"
+   args : ["build","-t","gcr.io/coherent-vim-283907/booklibrary:latest","."]
+#Step2 Push the image
+ - name : "gcr.io/cloud-builders/docker"
+   args : ["push","gcr.io/coherent-vim-283907/booklibrary:latest"]
+#Step3 Deployment to APP engine
+ - name : "gcr.io/cloud-builders/gcloud"
+   args :  ["app","deploy","../app.yaml"]
+   timeout : 1600s
+timeout : 1600s
+#  - name : "gcr.io/cloud-builders/gke-deploy"
+#    args :
+#    - run
+#    - --filename=booklibrary-deployment.yaml
+#    - --image=gcr.io/coherent-vim-283907/booklibrary:latest
+#    - --location=us-central1-c
+#    - --cluster=toolautomation
+# Step4  Deployment to App engine

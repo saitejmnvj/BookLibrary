@@ -1,0 +1,81 @@
+{
+  "Store234": [
+    {
+      "Title": "Sins of Father",
+      "Author": "Jeffrey Archer",
+      "ISBN": "2456",
+      "PublicationDate": "2019-08-06",
+      "Publisher": "Goyal",
+      "Price": 600,
+      "Genre": "Thriller",
+      "Format": "epub",
+      "id": 3
+    },
+    {
+      "Title": "Clifton Chronicles",
+      "Author": "Jeffrey Archer",
+      "ISBN": "2457",
+      "PublicationDate": "2019-08-17",
+      "Publisher": "Goyal",
+      "Price": "6000",
+      "Genre": "Thriller",
+      "Format": "epub",
+      "id": 4
+    },
+    {
+      "Title": "Wings of Fire",
+      "Author": "Kalam",
+      "ISBN": "2484",
+      "PublicationDate": "2019-07-11",
+      "Publisher": "Goyal",
+      "Price": 600,
+      "Genre": "Thriller",
+      "Format": "epub",
+      "id": 5
+    },
+    {
+      "Title": "Only Time Will Tell",
+      "Author": "Jeffrey Archer",
+      "ISBN": "23789",
+      "PublicationDate": "2011-06-17",
+      "Publisher": "Goyal",
+      "Price": 600,
+      "Genre": "Thriller",
+      "Format": "epub",
+      "id": 2
+    },
+    {
+      "Title": "I'm Another You",
+      "Author": "Priya Kumar",
+      "ISBN": "9380227175",
+      "PublicationDate": "2019-08-16",
+      "Publisher": "Embassy Books",
+      "Price": "195",
+      "Genre": "NonFiction",
+      "Format": "PDF",
+      "id": 12
+    },
+    {
+      "Title": "My Travel Experiences",
+      "Author": "Girisha Katneni",
+      "ISBN": "0908208",
+      "PublicationDate": "2019-11-08",
+      "Publisher": "Guddi Publishers",
+      "Price": "1000",
+      "Genre": "Fantasy",
+      "Format": "PDF",
+      "id": 14
+    },
+    {
+      "Title": "ksf",
+      "Author": "kfjnkjn",
+      "ISBN": "kbfk.bk.m",
+      "PublicationDate": "2020-03-12",
+      "Publisher": "K;LFKLJL",
+      "Price": "BFK.JB,KB",
+      "Genre": "BHBF,JHVB,H",
+      "Format": "HB,MHM",
+      "id": 15
+    }
+  ]
+}
