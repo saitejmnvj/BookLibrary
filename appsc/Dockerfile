@@ -4,7 +4,7 @@
 
  WORKDIR /app  
 
- COPY package*.json ./
+ COPY package*.json ./appsc
   
 # ARG APP_PORT
 
