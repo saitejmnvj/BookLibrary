@@ -4,8 +4,8 @@ steps:
    args : ["build",
            "-t",
            "gcr.io/coherent-vim-283907/booklibrary:latest",
-           "-f"
-           "appsc/Dockerfile"
+           "-f",
+           "appsc/Dockerfile",
            "."]
 #Step2 Push the image
  - name : "gcr.io/cloud-builders/docker"
