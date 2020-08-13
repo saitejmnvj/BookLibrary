@@ -7,7 +7,7 @@ steps:
    args : ["push","gcr.io/coherent-vim-283907/booklibrary:latest"]
 #Step3 Deployment to APP engine
  - name : "gcr.io/cloud-builders/gcloud"
-   args :  ["app","deploy","../app.yaml"]
+   args :  ["app","deploy","appsc/app.yaml"]
    timeout : 1600s
 timeout : 1600s
 #  - name : "gcr.io/cloud-builders/gke-deploy"
